@@ -1,0 +1,88 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Left side with form */
+.left-side {
+    background-color: white;  /* White background for the left side */
+    width: 50%;               /* Left side takes up 50% of the page */
+    height: 100vh;            /* Full height */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds slight shadow for the form */
+}
+
+/* General form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styles for all input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Default border color */
+    border-radius: 5px;
+}
+
+/* Pink border for email */
+input[type="email"] {
+    border: 2px solid pink;  /* Pink border for email input */
+}
+
+/* ID Selector for submit button */
+#submit {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+}
+
+#submit:hover {
+    background-color: #218838;
+}
+
+/* Class Selector for the checkbox group */
+.checkbox-group {
+    margin: 15px 0;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Confirmation message style */
+.confirmation {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}
+
+        }
+        header .logo img {
+            height: 60px;
+            width: auto;
+        }

@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  position: relative;
+  background-image: url('https://i.imgur.com/t5S5mEn.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Intro Section */
+.intro {
+  padding: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.activities {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out; /* Add animation for fade in */
+}
+
+.activities h2 {
+  font-size: 2.5rem;
+  color: #2d6a4f; /* A nature-inspired color */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.activities p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.activities ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #444;
+  text-align: left;
+  display: inline-block;
+  padding-left: 0;
+}
+
+.activities ul li {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #e6f7ff; /* Light blue background for each item */
+  border-radius: 6px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.activities ul li:hover {
+  background-color: #bce0fd; /* Slightly darker shade on hover */
+}
+
+.activity-icon {
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Attractions Section */
+.attractions {
+  padding: 50px 0;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.attraction-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.attraction-card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.attraction-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.attraction-card p {
+  padding: 0 10px 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.attraction-card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .attraction-card {
+    width: 80%;
+  }
+}

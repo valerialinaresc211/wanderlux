@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #c55a11; /* Change header color */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Attractions Section */
+.attractions {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.attraction-card {
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.attraction-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+
+.attraction-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 15px;
+}
+
+.attraction-card p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Activities Section */
+.activities {
+  background-color: #fffae6; /* Change background color */
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.activities h2 {
+  font-size: 2.5rem;
+  color: #e67e22; /* Bright orange color */
+  font-weight: bold;
+}
+
+.activities p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.activities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activities ul li {
+  margin: 20px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.activity-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.activities ul li:hover {
+  color: #c55a11;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Footer Section */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+footer .footer-left {
+  text-align: left;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}

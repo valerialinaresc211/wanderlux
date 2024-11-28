@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-image: url('https://th.bing.com/th/id/R.f867b7b9b5088780a1c120721fb4979b?rik=ly46yxXeyOLurA&riu=http%3a%2f%2fwww.nazproperties.com%2f_media%2fImages%2fGastown-920-wide.jpg&ehk=tngGMToGg9ma%2bOWLX0D3yDEwcCxuejWrYh15Ctg3lUk%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.attractions .card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.attraction-card {
+  width: 29%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.attraction-card:hover {
+  transform: scale(1.05);
+}
+
+.attraction-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.activities ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.activities li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.activity-icon {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-left {
+  text-align: center;
+}
+
+.footer-left p {
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-links img {
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f9a825;
+}

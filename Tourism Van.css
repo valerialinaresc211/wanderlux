@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #1d3557; 
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.logo {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 20px; /
+}
+
+.logo img {
+    width: 60px !important; 
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    justify-content: center; 
+    width: 100%;
+    max-width: 800px; 
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+nav a {
+    color: #333; /
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    background-color: white;
+}
+
+nav a:hover {
+    background-color: #e0e0e0; 
+}
+
+
+main {
+    padding: 20px;
+}
+
+@keyframes rotateBackground {
+    0% { background-image: url('https://i.imgur.com/A93uJUc.jpeg'); }
+    33% { background-image: url('https://i.imgur.com/7K7eXi2.jpeg'); }
+    66% { background-image: url('https://i.imgur.com/tz3RnrL.jpeg'); }
+    100% { background-image: url('https://i.imgur.com/A93uJUc.jpeg'); }
+}
+
+Popular destinations h2 {
+    font-size: 3 em; 
+    margin: 0; 
+}
+Popular destinations h2 {
+    background-color: #1d3557;
+    color: white;
+    text-align: center; 
+    padding: 20px 0;
+}
+.gallery {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    margin: 20px auto; 
+}
+
+
+.gallery img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    transition: transform 0.3s ease; 
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr; 
+    }
+}
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#our_influencers {
+    background-color: #1d3557; 
+    color: white;
+    text-align: center; 
+    padding: 20px 0;
+}
+
+#our_influencers h3 {
+    font-size: 2.5em; 
+    margin: 0; 
+}
+
+
+#wanderlux_travel_vancouver .gallery {
+    display: flex; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    background-color: #1d3557; 
+    padding: 20px 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.image-item {
+    width: 150px; 
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+
+
+.image-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    transition: transform 0.3s ease; 
+}
+
+
+.image-item img:hover {
+    transform: scale(1.05); 
+}
+
+
+.image-item p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+}
+
+.social-links, .subscribe {
+    margin-bottom: 20px; 
+}
+
+.footer-contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-top: 20px;
+    text-align: center;
+}
